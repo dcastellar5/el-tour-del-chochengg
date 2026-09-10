@@ -1,0 +1,22 @@
+{
+  "name": "El Tour del Chochengg - Colombia Romance & Singles Tours",
+  "short_name": "El Chochengg",
+  "description": "El Tour del Chochengg: International singles tours and VIP matchmaking in Barranquilla, Cartagena, Medellín, Bogotá, and Santa Marta.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#07090e",
+  "theme_color": "#eab308",
+  "icons": [
+    {
+      "src": "https://images.unsplash.com/photo-1596422846543-75c6fc197f07?auto=format&fit=crop&w=192&h=192&q=80",
+      "sizes": "192x192",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1596422846543-75c6fc197f07?auto=format&fit=crop&w=512&h=512&q=80",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    }
+  ],
+  "categories": ["travel", "lifestyle", "dating"]
+}

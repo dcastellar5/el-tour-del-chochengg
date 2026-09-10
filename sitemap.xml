@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <!-- Main Home & Multi-City Tour Portal -->
+  <url>
+    <loc>https://www.eltourdelchochengg.com/</loc>
+    <lastmod>2026-09-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    
+    <!-- Multi-Language Hreflang Tags -->
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.eltourdelchochengg.com/" />
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.eltourdelchochengg.com/?lang=en-us" />
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://www.eltourdelchochengg.com/?lang=en-gb" />
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://www.eltourdelchochengg.com/?lang=en-ca" />
+    <xhtml:link rel="alternate" hreflang="en-AU" href="https://www.eltourdelchochengg.com/?lang=en-au" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.eltourdelchochengg.com/?lang=es" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.eltourdelchochengg.com/?lang=de" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.eltourdelchochengg.com/?lang=fr" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.eltourdelchochengg.com/" />
+
+    <!-- Video SEO Extension -->
+    <video:video>
+      <video:thumbnail_loc>https://images.unsplash.com/photo-1596422846543-75c6fc197f07?auto=format&amp;fit=crop&amp;w=1200&amp;q=80</video:thumbnail_loc>
+      <video:title>El Tour del Chochengg - Colombia Romance &amp; Singles Tours</video:title>
+      <video:description>Watch introductory video showcase of El Tour del Chochengg: singles galas with 100+ vetted Colombian women, VIP yacht parties in Cartagena, and nightlife in Medellín and Barranquilla.</video:description>
+      <video:content_loc>https://www.eltourdelchochengg.com/media/intro-el-tour-del-chochengg.mp4</video:content_loc>
+      <video:player_loc>https://www.eltourdelchochengg.com/#video-showcase</video:player_loc>
+      <video:duration>225</video:duration>
+      <video:rating>4.9</video:rating>
+      <video:view_count>148200</video:view_count>
+      <video:publication_date>2026-01-15T08:00:00+00:00</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:tag>El Tour del Chochengg</video:tag>
+      <video:tag>Colombia singles tours</video:tag>
+      <video:tag>meet Colombian women</video:tag>
+      <video:tag>Barranquilla party singles</video:tag>
+      <video:tag>Medellín romance tour</video:tag>
+      <video:tag>Cartagena yacht singles</video:tag>
+    </video:video>
+  </url>
+
+  <!-- Barranquilla Singles & Carnaval Tour Page -->
+  <url>
+    <loc>https://www.eltourdelchochengg.com/#barranquilla</loc>
+    <lastmod>2026-09-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Cartagena Yacht & Colonial Singles Tour Page -->
+  <url>
+    <loc>https://www.eltourdelchochengg.com/#cartagena</loc>
+    <lastmod>2026-09-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Medellín Singles & Rooftops Tour Page -->
+  <url>
+    <loc>https://www.eltourdelchochengg.com/#medellin</loc>
+    <lastmod>2026-09-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Bogotá Cosmopolitan Singles Tour Page -->
+  <url>
+    <loc>https://www.eltourdelchochengg.com/#bogota</loc>
+    <lastmod>2026-09-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Santa Marta Tropical Romance Tour Page -->
+  <url>
+    <loc>https://www.eltourdelchochengg.com/#santamarta</loc>
+    <lastmod>2026-09-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- VIP Diamond Tour Package Page -->
+  <url>
+    <loc>https://www.eltourdelchochengg.com/#vip-diamond</loc>
+    <lastmod>2026-09-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+</urlset>

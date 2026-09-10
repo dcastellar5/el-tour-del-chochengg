@@ -1,0 +1,218 @@
+/* ==========================================================================
+   COLOMBIA ELITE ROMANCE & SINGLES TOURS - LUXURY STYLESHEET
+   ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,400;1,600&display=swap');
+
+:root {
+  --font-heading: 'Cinzel', serif;
+  --font-serif: 'Playfair Display', serif;
+  --font-sans: 'Plus Jakarta Sans', sans-serif;
+
+  --color-gold-light: #fef08a;
+  --color-gold: #eab308;
+  --color-gold-rich: #ca8a04;
+  --color-gold-dark: #854d0e;
+  
+  --color-bg-dark: #07090e;
+  --color-bg-surface: #0d121d;
+  --color-bg-card: rgba(18, 24, 38, 0.85);
+  --color-border-glow: rgba(234, 179, 8, 0.25);
+  
+  --color-emerald: #10b981;
+  --color-rose: #f43f5e;
+  --color-cyan: #06b6d4;
+}
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-bg-dark);
+  color: #e2e8f0;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, .font-heading {
+  font-family: var(--font-heading);
+  letter-spacing: 0.04em;
+}
+
+.font-serif-italic {
+  font-family: var(--font-serif);
+  font-style: italic;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #07090e;
+}
+::-webkit-scrollbar-thumb {
+  background: #272f45;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ca8a04;
+}
+
+/* Luxury Glow & Gradients */
+.gold-gradient-text {
+  background: linear-gradient(135deg, #fffbeb 0%, #fde047 30%, #eab308 60%, #a16207 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.silver-gradient-text {
+  background: linear-gradient(135deg, #ffffff 0%, #e2e8f0 50%, #94a3b8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.diamond-gradient-text {
+  background: linear-gradient(135deg, #ffffff 0%, #67e8f9 40%, #c084fc 80%, #38bdf8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.vip-diamond-gradient-text {
+  background: linear-gradient(135deg, #fef08a 0%, #f43f5e 50%, #8b5cf6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-gradient-bg {
+  background: linear-gradient(135deg, #eab308 0%, #ca8a04 50%, #a16207 100%);
+}
+
+.btn-gold {
+  background: linear-gradient(135deg, #facc15 0%, #eab308 50%, #ca8a04 100%);
+  color: #07090e;
+  font-weight: 700;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 20px rgba(234, 179, 8, 0.3);
+}
+
+.btn-gold:hover {
+  background: linear-gradient(135deg, #fef08a 0%, #facc15 50%, #eab308 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(234, 179, 8, 0.45);
+}
+
+/* Glassmorphism Cards */
+.glass-card {
+  background: rgba(15, 23, 42, 0.65);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.glass-card:hover {
+  border-color: rgba(234, 179, 8, 0.35);
+  box-shadow: 0 12px 35px -10px rgba(0, 0, 0, 0.5), 0 0 25px rgba(234, 179, 8, 0.15);
+}
+
+.glass-card-featured {
+  background: linear-gradient(160deg, rgba(30, 41, 59, 0.8) 0%, rgba(15, 23, 42, 0.9) 100%);
+  backdrop-filter: blur(20px);
+  border: 2px solid rgba(234, 179, 8, 0.4);
+  box-shadow: 0 20px 40px -15px rgba(234, 179, 8, 0.25);
+}
+
+/* Video Player Styling */
+.video-container {
+  position: relative;
+  overflow: hidden;
+  border-radius: 1.25rem;
+  background: #020617;
+  border: 1px solid rgba(234, 179, 8, 0.2);
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.8), 0 0 40px rgba(234, 179, 8, 0.15);
+}
+
+.video-overlay-gradient {
+  background: linear-gradient(to top, rgba(7, 9, 14, 0.95) 0%, rgba(7, 9, 14, 0.4) 40%, rgba(7, 9, 14, 0.2) 100%);
+}
+
+.audio-wave-bar {
+  display: inline-block;
+  width: 4px;
+  height: 18px;
+  background-color: #eab308;
+  border-radius: 2px;
+  animation: soundWave 1.2s infinite ease-in-out alternate;
+}
+
+@keyframes soundWave {
+  0% { height: 4px; }
+  100% { height: 22px; }
+}
+
+.audio-wave-bar:nth-child(1) { animation-delay: 0.1s; }
+.audio-wave-bar:nth-child(2) { animation-delay: 0.3s; }
+.audio-wave-bar:nth-child(3) { animation-delay: 0.2s; }
+.audio-wave-bar:nth-child(4) { animation-delay: 0.4s; }
+.audio-wave-bar:nth-child(5) { animation-delay: 0.15s; }
+
+/* Pulse animation */
+@keyframes pulseGlow {
+  0%, 100% {
+    box-shadow: 0 0 15px rgba(234, 179, 8, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 30px rgba(234, 179, 8, 0.7);
+  }
+}
+
+.pulse-gold {
+  animation: pulseGlow 2.5s infinite;
+}
+
+/* Badge animations */
+.badge-vip {
+  background: linear-gradient(135deg, #e11d48, #9333ea, #3b82f6);
+  background-size: 200% 200%;
+  animation: gradientFlow 4s ease infinite;
+}
+
+@keyframes gradientFlow {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* City Card Zoom */
+.city-card {
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.city-card:hover .city-img {
+  transform: scale(1.08);
+}
+
+.city-img {
+  transition: transform 0.7s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+/* Modal styling */
+.modal-backdrop {
+  background: rgba(4, 7, 13, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+/* Custom interactive video canvas effects */
+.video-screen {
+  background: radial-gradient(circle at 50% 50%, #1e1b4b 0%, #030712 100%);
+}
+
+.glow-ambient {
+  filter: drop-shadow(0 0 45px rgba(234, 179, 8, 0.2));
+}

@@ -1,0 +1,31 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*?*filter=
+
+# Crawl-delay for polite crawling
+Crawl-delay: 1
+
+# Specific major search engine bots
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+# XML Sitemaps
+Sitemap: https://www.colombiaamoretours.com/sitemap.xml
+Sitemap: https://www.colombiaamoretours.com/sitemap-video.xml
